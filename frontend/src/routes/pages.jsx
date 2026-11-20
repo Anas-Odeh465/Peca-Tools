@@ -16,7 +16,7 @@ import Server from "../pages/dashboard/server";
 import Tasks from "../pages/dashboard/tasks";
 import Teams from "../pages/dashboard/teams";
 import { Navigate } from "react-router-dom";
-import Home from "../pages/dashboard/Home";
+import Home from "../pages/dashboard/home";
 import Login from "../pages/login/login";
 import Main from "../pages/main/main";
 import Help from "../pages/help/help";
