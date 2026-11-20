@@ -1,0 +1,79 @@
+{
+  "Login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "forgotPassword": "Did you forget the password?",
+    "submit": "Log In",
+    "help": "Help",
+    "language": "Language"
+  },
+  "ForgotPassword": {
+    "title": "Forgot Password",
+    "description": "Enter your username and we'll send the password to your supervisor.",
+    "backToLogin1": "Back to Login?",
+    "username": "Username",
+    "send": "Send",
+    "help": "Help",
+    "language": "Language"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "Sorry, the page you're looking for doesn't exist or may have been moved.",
+    "backToLogin": "Back to Login",
+    "backToHome": "Home Page",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "Validation": {
+    "usernameRequired": "Username is required.",
+    "usernameMin": "Username must contain at least 3 characters.",
+    "usernameMax": "Username cannot exceed 32 characters.",
+    "passwordRequired": "Password is required.",
+    "passwordMax": "Password cannot exceed 128 characters."
+  },
+  "Help": {
+    "title": "How can we help you?",
+    "searchPlaceholder": "Search for help...",
+    "searchLabel": "Search help articles",
+    "categoriesLabel": "Help categories",
+    "faqTitle": "Frequently Asked Questions",
+    "noResults": "No matching questions found.",
+    "supportTitle": "Still need help?",
+    "contactSupport": "Contact support",
+    "goBack": "Go Back",
+
+    "categories": {
+      "account": {
+        "name": "Account & Login",
+        "details": "Access and passwords"
+      },
+      "projects": {
+        "name": "Projects",
+        "details": "Managing project data"
+      },
+      "uploads": {
+        "name": "Files & Uploads",
+        "details": "Photos and attachments"
+      },
+      "troubleshooting": {
+        "name": "Troubleshooting",
+        "details": "Technical issues"
+      }
+    },
+
+    "faq": {
+      "recoverPassword": {
+        "question": "How do I recover my password?",
+        "answer": "Go to the Forgot Password page and enter your username. Once the recovery process is initiated, follow the instructions provided by the system."
+      },
+      "loginIssues": {
+        "question": "Why can't I log in?",
+        "answer": "Check your username, password, and internet connection. If the problem persists, contact technical support."
+      },
+      "technicalIssues": {
+        "question": "What should I do if a technical issue arises?",
+        "answer": "Prepare a description of the issue, the page where it occurred, and a screenshot. Make sure the screenshot does not contain passwords or sensitive information."
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Readex Pro Variable", sans-serif;
+}
+
+body {
+    font-family: var(--font-sans);
+}
+
+.scroll-container {
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
