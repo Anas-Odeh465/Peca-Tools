@@ -1,6 +1,8 @@
 import ForgotPassword from "../pages/forgot-password/forgotPassword";
 import UsersGeneral from "../pages/dashboard/users/usersGeneral";
 import UsersMembers from "../pages/dashboard/users/usersMembers";
+import UsersLimits from "../pages/dashboard/users/usersLimits";
+import UsersRoles from "../pages/dashboard/users/usersRoles";
 import DashboardLayout from "../pages/dashboard/dashboard";
 import AiAssistant from "../pages/dashboard/aiAssistant";
 import Analytics from "../pages/dashboard/analytics";
@@ -40,7 +42,9 @@ export const pages = [
                 children: [
                     { index: true, element: <Navigate to="general" replace /> },
                     { path: 'general', element: <UsersGeneral  /> },
+                    { path: 'limits', element: <UsersLimits  /> },
                     { path: 'members', element: <UsersMembers  /> },
+                    { path: 'roles', element: <UsersRoles  /> },
                     { path: "*", element: <NotFound dashboard /> }
                 ]
             },

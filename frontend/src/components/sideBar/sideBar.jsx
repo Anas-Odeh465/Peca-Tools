@@ -12,7 +12,7 @@ export default function SideBar({ sideBar }) {
     const locale = (i18n.resolvedLanguage || i18n.language || "ar").split("-")[0];
 
     return (
-        <div className={`fixed hidden md:flex flex-col ${isSidebarOpen ? 'w-64' : 'w-14'} h-screen bg-[#f3f3f3] platform-link-font-type-desc transition-[width] duration-150 text-black z-50  border-r border-[#e8e8e8] `}>
+        <div className={`fixed hidden md:flex flex-col ${isSidebarOpen ? 'w-64' : 'w-14'} h-screen select-none bg-[#f3f3f3] platform-link-font-type-desc transition-[width] duration-150 text-black z-50  border-r border-[#e8e8e8] `}>
             <div className={`flex justify-between items-center w-full h-12 pt-4 mb-5 px-2`}>
                 <div className={`overflow-hidden transition-[max-width,opacity] duration-150 ease-out ${isSidebarOpen ? 'max-w-30 opacity-100' : 'max-w-0 opacity-0'}`}>
                     <Logo loading="eager" className="w-25 h-auto" width={1448} height={1086}/>

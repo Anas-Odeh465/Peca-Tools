@@ -1,6 +1,7 @@
-import { BellIcon, ChevronDown, HelpCircleIcon, BotMessageSquare, FolderPlus, ListTodo, CloudUpload, UserPlus, Plus } from "lucide-react";
+import { BellIcon, ChevronDown, HelpCircleIcon, BotMessageSquare, FolderPlus, ListTodo, CloudUpload, UserPlus, Plus, MenuIcon } from "lucide-react";
 import { getLocaleFromPath, localizedPath } from "../../../i18n/locale";
 import { Link, useLocation } from "react-router-dom";
+import MobileSideBar from "../sideBar/MobileSideBar";
 import { useState, useEffect, useRef } from "react";
 import { Tooltip } from "react-tooltip";
 
@@ -52,7 +53,7 @@ export default function DashboardNavBar({ pageName = "", notifications = [], onM
     }, []);
 
     return (
-        <header className={`relative flex w-full items-center justify-between gap-4 ${includedNavegationLine ? "border-b border-[#e8e8e8]" : ''} bg-white px-4 py-${paddingYLevel} sm:px-6 z-40`}>
+        <header className={`sticky top-0 z-50 flex w-full items-center justify-between gap-4 ${includedNavegationLine ? "border-b border-[#e8e8e8]" : ''} bg-white px-4 py-${paddingYLevel} sm:px-6 z-50`}>
 
             <h1 className="truncate text-xl font-medium text-gray-900">{pageName}</h1>
 
@@ -160,6 +161,8 @@ export default function DashboardNavBar({ pageName = "", notifications = [], onM
                 >
                     <HelpCircleIcon size={18} />
                 </Link>
+
+                <MobileSideBar />
 
             </div>
 
